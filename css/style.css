@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 5fr 2fr;
+      grid-template-columns: 1fr 5fr 2fr;
+      grid-template-areas: "header-logo header-nav header-contacts";
+}
+
+.header-logo {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: header-logo;
+}
+
+.header-nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: header-nav;
+}
+
+.header-contacts {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: header-contacts;
+}
+
+.header-text {
+  grid-area: header-text;
+}
+/*# sourceMappingURL=style.css.map */

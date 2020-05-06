@@ -1,75 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Парикмахерская Виолетт</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <style>
-        * {padding: 0; margin: 0;}
-
-        .wrapper {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            /* column-gap: 1em;
-            row-gap: 1em; */
-            gap: 1em;
-            grid-auto-rows: minmax(100px, auto);
-        }
-
-        .included {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1em;
-            grid-auto-rows: 80px;
-        }
-
-        .wrapper > div {
-            padding: 1em;
-            background-color: rgb(245, 151, 151);
-        }
-
-        .wrapper > div.light {
-            padding: 1em;
-            background-color:rgb(194, 68, 68)
-        }
-
-        .included > div {
-            background-color: yellow;
-        }
-    </style>
+    <title>Парикмахерская Violette</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt, praesentium exercitationem totam ipsam in et amet dolores asperiores debitis! Corporis, ex! Iusto, fugit error debitis provident quis placeat blanditiis laboriosam deserunt neque, odit voluptates rerum? Commodi doloremque ipsum soluta aliquid consequatur porro numquam quas cupiditate voluptatem natus temporibus quibusdam enim, ratione vitae qui totam nemo minima earum. Nisi vero ipsum ipsam doloremque? Doloribus quis facilis eligendi obcaecati voluptatem blanditiis?
+    <header class="header">
+        <a href="#" class="header-logo">
+            <img src="img/logo.png" alt="">
+        </a>
+        <nav class="header-nav">
+            <a href="#" class="header-nav_link">Услуги</a>
+            <a href="#" class="header-nav_link">Наши работы</a>
+            <a href="#" class="header-nav_link">Прайс-лист</a>
+            <a href="#" class="header-nav_link">О нас</a>
+            <a href="#" class="header-nav_link">Контакты</a>
+        </nav>
+        <div class="header-contacts">
+            <a href="#" class="header-contacts__link">8 999 999 99 99</a>
+            <a href="#" class="header-contacts__link">Заказать звонок</a>
         </div>
-        <div class="light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo ipsum animi! Sint, voluptates. Error sapiente cumque eius laudantium, quisquam possimus obcaecati similique maiores assumenda repudiandae, inventore numquam!
-        </div>
-        <div>
-            <div class="included">
-                <div>Lorem, ipsum.</div>
-                <div>Lorem, ipsum.</div>
-                <div>Lorem, ipsum.</div>
-                <div>Lorem, ipsum.</div>
+        <div class="header-text">
+            <h1 class="header-title">Парикмахерская Violette</h1>
+            <span class="header-subtitle">Стрижём, красим, брови, маникюр</span>
+            <div class="header-button">
+                <a href="#" class="button">Записаться</a>
+                <a href="#" class="button">Узнать больше</a>
             </div>
         </div>
-        <div class="light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id hic culpa molestiae nemo corporis aliquam praesentium quaerat libero quia optio omnis, ut, nam nostrum blanditiis reiciendis! Officia, voluptatem?
-        </div>
-        <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum deserunt, praesentium exercitationem totam ipsam in et amet dolores asperiores debitis! Corporis, ex! Iusto, fugit error debitis provident quis placeat blanditiis laboriosam deserunt neque, odit voluptates rerum? Commodi doloremque ipsum soluta aliquid consequatur porro numquam quas cupiditate voluptatem natus temporibus quibusdam enim, ratione vitae qui totam nemo minima earum. Nisi vero ipsum ipsam doloremque? Doloribus quis facilis eligendi obcaecati voluptatem blanditiis?
-        </div>
-        <div class="light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo ipsum animi! Sint, voluptates. Error sapiente cumque eius laudantium, quisquam possimus obcaecati similique maiores assumenda repudiandae, inventore numquam!
-        </div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consectetur eum accusantium commodi, quas adipisci. Libero, omnis aperiam inventore officia voluptate id rem quae culpa harum praesentium reiciendis, debitis excepturi error recusandae a impedit atque suscipit? Accusamus repellat impedit quidem, et, quaerat deleniti qui ea quam aliquam laudantium quia? Nostrum dignissimos dolorum fuga excepturi nemo nulla inventore eum id, explicabo expedita doloribus iste maxime consequatur impedit eveniet tempore voluptatum aliquid.
-        </div>
-        <div class="light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id hic culpa molestiae nemo corporis aliquam praesentium quaerat libero quia optio omnis, ut, nam nostrum blanditiis reiciendis! Officia, voluptatem?
-        </div>
-    </div>
+    </header>
 </body>
 </html>

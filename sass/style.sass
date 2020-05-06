@@ -1,0 +1,16 @@
+*, *:before, *:after
+    box-sizing: border-box
+body
+    font-family: sans-serif
+.header
+    display: grid
+    grid-template-columns: 1fr 5fr 2fr
+    grid-template-areas: "header-logo header-nav header-contacts"
+    &-logo
+        grid-area: header-logo
+    &-nav
+        grid-area: header-nav
+    &-contacts
+        grid-area: header-contacts
+    &-text
+        grid-area: header-text
